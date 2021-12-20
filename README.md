@@ -1,4 +1,4 @@
-﻿# Introduction
+﻿# Nordic Darker with a touch of blurred transparency
 
 These are my config files for a clean, dark [Nord](https://www.nordtheme.com/) look on GNOME 40. At the time of upload, I am using this configuration on Pop!_OS 21.10 running GNOME 40.5.
 To get started, download this repository and follow the steps below. As with all configs, mine is highly up to personal choice. Feel free to tweak any of these files to your own liking.
