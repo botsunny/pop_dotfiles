@@ -1,6 +1,6 @@
-﻿# Nordic Darker with a touch of blurred transparency
+﻿# Configuration
 
-These are my config files for a clean, dark [Nord](https://www.nordtheme.com/) look on GNOME 40. At the time of upload, I am using this configuration on Pop!_OS 21.10 running GNOME 40.5.
+These are my config files for a clean, dark [Nord](https://www.nordtheme.com/) look with a touch of blurred transparecy, on GNOME 40. At the time of upload, I am using this configuration on Pop!_OS 21.10 running GNOME 40.5.
 To get started, download this repository and follow the steps below. As with all configs, mine is highly up to personal choice. Feel free to tweak any of these files to your own liking.
 
 Original Nord colour palette by [articicestudio](https://github.com/arcticicestudio).
@@ -42,21 +42,29 @@ Sometimes, Neovim's Nord colour scheme may contradict with that of Lualine's. If
 
     mv nord_new.lua $HOME/.config/nvim/plugged/lualine.nvim/lua/lualine/themes
    
-   Then, replace line 19 of **init.vim** with `theme = 'nord_new',`. This should correct the Nord colour scheme of Lualine.
+Then, replace line 19 of **init.vim** with `theme = 'nord_new',`. This should correct the Nord colour scheme of Lualine.
    
 ### Blur Me
 
 To add blur to our transparent Alacritty/GNOME Terminal and Neovim windows, install the [Blur Me](https://extensions.gnome.org/extension/4236/blur-me/) GNOME extension by [nunchucks](https://extensions.gnome.org/accounts/profile/nunchucks). 
-
-### Gedit
-
-I use GNOME's default GUI text editor from time to time. Follow the readme instructions [here](https://github.com/arcticicestudio/nord-gedit) to install a Nord theme for Gedit.
 
 ### oh-my-bash
 
 To customise the Bash prompt, install [oh-my-bash](https://github.com/ohmybash/oh-my-bash) (if you use Zsh, refer to [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)). Then, replace `$HOME/.bashrc` with the one included in the repository **(don't forget to add a '.' at the front)**. 
 
 I use the Agnoster theme. You can refer to the available themes for oh-my-bash on its Github page and change it in line 6 of **.bashrc**. If you use conda environments, the original Agnoster theme does not display them. To fix this, replace `$HOME/.oh-my-bash/themes/agnoster/agnoster.theme.sh` with the one included in the repository. I personally hide the git prompt. If you want git branches to be displayed, uncomment line 422 in `agnoster.theme.sh`.
+
+### Gedit
+
+I use GNOME's default GUI text editor from time to time. Follow the readme instructions [here](https://github.com/arcticicestudio/nord-gedit) to install a Nord theme for Gedit.
+
+### VS Code
+
+If you use VS Code or VS Codium, go to the Marketplace and search for [Nord](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code).
+
+### btop
+
+I use a terminal system monitor called [btop](https://github.com/aristocratos/btop). It includes Nord as a theme option, which can be switched to in the options.
 
 ### Wallpapers
 
