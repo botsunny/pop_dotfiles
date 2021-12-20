@@ -61,3 +61,6 @@ I use the Agnoster theme. You can refer to the available themes for oh-my-bash o
 ### Wallpapers
 
 I included three of my favourite Nord-themed wallpapers in the **wallpapers** folder. More can be found [here](https://github.com/linuxdotexe/nordic-wallpapers).
+
+## Screenshot
+![image info](./Screenshot.png)
