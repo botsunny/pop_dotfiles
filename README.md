@@ -54,7 +54,7 @@ I use GNOME's default GUI text editor from time to time. Follow the readme instr
 
 ### oh-my-bash
 
-To customise the Bash prompt, install [oh-my-bash](https://github.com/ohmybash/oh-my-bash) (if you use Zsh, refer to [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)). Then, replace `$HOME/.bashrc` with the one included in the repository (don't forget to add a '.' at the front). 
+To customise the Bash prompt, install [oh-my-bash](https://github.com/ohmybash/oh-my-bash) (if you use Zsh, refer to [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)). Then, replace `$HOME/.bashrc` with the one included in the repository **(don't forget to add a '.' at the front)**. 
 
 I use the Agnoster theme. You can refer to the available themes for oh-my-bash on its Github page and change it in line 6 of **.bashrc**. If you use conda environments, the original Agnoster theme does not display them. To fix this, replace `$HOME/.oh-my-bash/themes/agnoster/agnoster.theme.sh` with the one included in the repository. I personally hide the git prompt. If you want git branches to be displayed, uncomment line 422 in `agnoster.theme.sh`.
 
