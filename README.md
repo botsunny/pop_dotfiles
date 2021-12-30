@@ -9,7 +9,20 @@ To get started, download this repository and follow the steps below. As with all
 
 Original Nord colour palette by [articicestudio](https://github.com/arcticicestudio).
 
-### Application and Shell theme
+1. [Application and Shell theme](#app-and-shell)
+2. [Icon theme](#icon-theme)
+3. [Cursor theme](#cursor-theme)
+4. [Fonts](#fonts)
+5. [Alacritty](#alacritty)
+6. [Neovim and Lualine](#neovim-and-lualine)
+7. [Blur Me (extension for transparency blur)](#blur-me)
+8. [oh-my-bash](#oh-my-bash)
+9. [Gedit](#gedit)
+10. [Visual Studio Code](#vs-code)
+11. [btop](#btop)
+12. [Wallpapers](#wallpapers)
+
+### Application and Shell theme<a name="app-and-shell"></a>
 
 For the application and shell themes, [Nordic Darker v40](https://www.gnome-look.org/p/1267246/) by [EliverLara](https://www.gnome-look.org/u/eliverlara) is used. Click on the link, go to **Files**, download **Nordic-darker-v40.tar.xz** and extract its contents into your `$HOME/.themes` directory. Create a `.themes` directory if it does not exist:
 
@@ -17,7 +30,7 @@ For the application and shell themes, [Nordic Darker v40](https://www.gnome-look
 
 Change the Application and Shell themes to **Nordic-darker-v40** via GNOME Tweaks.
 
-### Icon theme
+### Icon theme<a name="icon-theme"></a>
 
 The icon theme used is Zafiro. As we want our folder icons to be Nord-themed as well, we use [Nordic Folders icon pack Mod](https://www.gnome-look.org/p/1473069/) by [theglitchh](https://www.gnome-look.org/u/theglitchh). It includes the standard Zafiro icons with the folders replaced by Nordic Darker folder icons. Click on the link, go to **Files**, download **Nordic-Darker-mod.tar.xz** and extract its contents into your `$HOME/.icons` directory. Create a `.icons` directory if it does not exist:
 
@@ -25,7 +38,7 @@ The icon theme used is Zafiro. As we want our folder icons to be Nord-themed as 
 
 Change the Icon theme to **Nordic-Darker** via GNOME Tweaks.
 
-### Cursor theme
+### Cursor theme<a name="cursor-theme"></a>
 
 I use [Norzy-cursors](https://www.gnome-look.org/p/1571937) by [alvatip](https://www.gnome-look.org/u/alvatip). Click on the link, go to **Files**, download **Nordic-Darker-mod.tar.xz** and extract its contents into your `$HOME/.icons` directory. 
 
@@ -41,7 +54,7 @@ To set your default interface and monospaced fonts, use GNOME Tweaks.
 
 Install the [Alacritty](https://github.com/alacritty/alacritty) terminal emulator. Move the **alacritty** folder into `$HOME/.config`. If you prefer the default GNOME Terminal, refer [here](https://github.com/arcticicestudio/nord-gnome-terminal).
 
-### Neovim and Lualine
+### Neovim and Lualine<a name="neovim-and-lualine"></a>
 
 I use [Neovim](https://github.com/neovim/neovim) as my terminal text editor. After installing it, drag the **nvim** folder into `$HOME/.config`. Create a directory called `plugged` inside `nvim`. 
 
@@ -62,9 +75,11 @@ Sometimes, Neovim's Nord colour scheme may contradict with that of Lualine's. If
    
 Then, replace line 19 of **init.vim** with `theme = 'nord_new',`. This should correct the Nord colour scheme of Lualine.
    
-### Blur Me
+### Blur Me<a name="blur-me"></a>
 
 To add blur to our transparent Alacritty/GNOME Terminal and Neovim windows, install the [Blur Me](https://extensions.gnome.org/extension/4236/blur-me/) GNOME extension by [nunchucks](https://extensions.gnome.org/accounts/profile/nunchucks). 
+
+NOTE: To add transparency to the GNOME Terminal, open it and go to **Preferences**. Select your profile in the **Profiles** section, go to **Colours**, and check **Use transparent background**.
 
 ### oh-my-bash
 
@@ -76,7 +91,7 @@ I use the Agnoster theme. You can refer to the available themes for oh-my-bash o
 
 I use GNOME's default GUI text editor from time to time. Follow the readme instructions [here](https://github.com/arcticicestudio/nord-gedit) to install a Nord theme for Gedit.
 
-### VS Code
+### Visual Studio Code<a name="vs-code"></a>
 
 If you use VS Code or VS Codium, go to the Marketplace and search for [Nord](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code).
 
