@@ -15,7 +15,7 @@ Original Nord colour palette by [articicestudio](https://github.com/arcticicestu
 4. [Fonts](#fonts)
 5. [Alacritty](#alacritty)
 6. [Neovim and Lualine](#neovim-and-lualine)
-7. [Blur Me (extension for transparency blur)](#blur-me)
+7. [Blur Me](#blur-me) (extension for transparency blur)
 8. [oh-my-bash](#oh-my-bash)
 9. [Gedit](#gedit)
 10. [Visual Studio Code](#vs-code)
@@ -79,7 +79,7 @@ Then, replace line 19 of **init.vim** with `theme = 'nord_new',`. This should co
 
 To add blur to our transparent Alacritty/GNOME Terminal and Neovim windows, install the [Blur Me](https://extensions.gnome.org/extension/4236/blur-me/) GNOME extension by [nunchucks](https://extensions.gnome.org/accounts/profile/nunchucks). 
 
-NOTE: To add transparency to the GNOME Terminal, open it and go to **Preferences**. Select your profile in the **Profiles** section, go to **Colours**, and check **Use transparent background**.
+NOTE: To add transparency to the GNOME Terminal, open it and go to **Preferences**. Select your profile in the **Profiles** section, go to **Colours**, and enable **Use transparent background**.
 
 ### oh-my-bash
 
