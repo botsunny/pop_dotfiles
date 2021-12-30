@@ -10,6 +10,7 @@ Plug 'shaunsingh/nord.nvim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'xiyaowong/nvim-transparent'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 call plug#end()
 
 lua << END
@@ -17,7 +18,7 @@ require'lualine'.setup {
   options = {
     icons_enabled = true,
     theme = 'nord_new',
-    component_separators = { left = '', right = '  ⃒'},
+    component_separators = { left = '', right = ' ⃒'},
     section_separators = { left = '', right = ''},
     disabled_filetypes = {},
     always_divide_middle = true,
@@ -58,7 +59,47 @@ require("transparent").setup({
   exclude = {}, -- table: groups you don't want to clear
 })
 
-require'lualine'.setup()
+require'nvim-web-devicons'.setup {
+ -- your personnal icons can go here (to override)
+ -- you can specify color or cterm_color instead of specifying both of them
+ -- DevIcon will be appended to `name`
+ override = {
+  py = {
+    icon = "",
+    color = "#3777ac",
+    --cterm_color = "67",
+    name = "py"
+  }
+ };
+ -- globally enable default icons (default to false)
+ -- will get overriden by `get_icons` option
+ default = true;
+}
+
+require'nvim-treesitter.configs'.setup {
+  -- One of "all", "maintained" (parsers with maintainers), or a list of languages
+  --ensure_installed = "maintained",
+
+  -- Install languages synchronously (only applied to `ensure_installed`)
+  --sync_install = false,
+
+  -- List of parsers to ignore installing
+  --ignore_install = { "javascript" },
+
+  highlight = {
+    -- `false` will disable the whole extension
+    enable = true,
+
+    -- list of language that will be disabled
+    disable = { },
+
+    -- Setting this to true will run `:h syntax` and tree-sitter at the same time.
+    -- Set this to `true` if you depend on 'syntax' being enabled (like for indentation).
+    -- Using this option may slow down your editor, and you may see some duplicate highlights.
+    -- Instead of true it can also be a list of languages
+    additional_vim_regex_highlighting = false,
+  },
+}
 END
 
 colorscheme nord
