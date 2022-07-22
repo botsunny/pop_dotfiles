@@ -1,3 +1,7 @@
+# ⚠️ Notice
+
+I no longer maintain this repository as I stopped using Pop!_OS and GNOME. Some of these configs and the extensions mentioned below may not work in the latest versions of Pop!_OS and GNOME. My current dotfiles can be found [here](https://github.com/botsunny/dotfiles).
+
 # End result
 
 ![image info](./Screenshot.png)
